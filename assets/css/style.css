@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1d2124;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  color: #f8f9fa;
+  scroll-behavior: smooth;
+}
+
+.ff-neutraface-text {
+  font-family: "Neutraface Text", sans-serif;
+}
+
+.controls {
+  width: 50%;
+}
+
+@media (576px <= width) {
+  .controls {
+    width: 100%;
+  }
+}
